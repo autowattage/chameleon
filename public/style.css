@@ -42,13 +42,16 @@ html {
       gap: 1rem;
       figure {
         margin: 0 auto; padding: 0; width: 8rem;
-        img { width: 100%; border: 0.2rem solid #0c4436; height: auto;}
+        img { width: 100%; border: 0.2rem solid #0c4436; height: auto; background-color: #eacdaf; }
       }
     }
+    #pair { width: 50%; height: auto; }
+    figure img { width: 100%; height: auto;}
   }
   footer {
     background-color: #060c2e; color: #eacdaf;
     padding: 0.5rem 0;
+    a { color: #78B450;}
   }
 }
 
@@ -63,6 +66,7 @@ html {
         flex-direction: row; align-items: flex-start; justify-content: center;
         figure { margin: 0; }
       }
+      #pair { width: 40%; }
     }
   }
 }
@@ -77,6 +81,7 @@ html {
     main {
       padding-top: 5rem;
       #steps figure { width: 10rem; }
+      #pair { width: 30%; }
     }
   }
 }
